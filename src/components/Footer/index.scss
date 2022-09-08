@@ -1,0 +1,24 @@
+.footer {
+  padding: 20px 0;
+  background: black;
+  color: aliceblue;
+
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+    min-width: 320px;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0 20px;
+
+    @media (max-width: 800px) {
+      flex-direction: column;
+      height: 150px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.switch {
+  width: 2em;
+  height: 2em;
+  cursor: pointer;
+  margin-top: 1.3em;
+  
+
+  &:hover {
+    opacity: .3;
+  }
+
+  @media screen and (max-width: 620px) {
+    margin: 1em;
+  }
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 620px) {
+    flex-direction: column;
+  }
+}
+
+.oneUnitTitle {
+  text-align: left;
+}
+
+.lastDate {
+  text-align: right;
+  margin-top: .5em;
+}
