@@ -5,6 +5,7 @@
 
   &__container {
     display: flex;
+    gap: 1em;
     padding: 1em;
     width: 100%;
     max-width: 1280px;
@@ -17,4 +18,22 @@
       justify-content: space-between;
     }
   }
+
+  .header__link__container {
+    margin-left: auto;
+    display: flex;
+    gap: 1em;
+
+    .header__link {
+      border-bottom: none;
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        color: blueviolet;  
+      }
+    }
+  }
+  
 }
+

@@ -26,7 +26,7 @@ function Converter() {
   const getDate = async () => {
     const currencyData = await currencyApi.getCurrency();
     const { rates, lastupdate } = currencyData;
-    const date = new Date(lastupdate).toISOString().split('T')[0]
+    const date = new Date(lastupdate).toISOString().split('T')[0];
 
     setLastupdate(date);
     setRates(rates);
